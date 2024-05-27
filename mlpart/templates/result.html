@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rainfall Prediction Result</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('https://wallpapercave.com/wp/wp2611576.jpg'); /* Replace with your preferred image URL */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .highlight {
+            font-size: 2rem;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1 class="card-title text-center">Rainfall Prediction Result</h1>
+        <h2 class="text-center">Predicted Rainfall for {{ month }}/{{ year }}:</h2>
+        <p class="text-center highlight">{{ prediction }} mm</p>
+        <a href="/" class="btn btn-primary btn-block">Back to Home</a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
